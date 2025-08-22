@@ -32,7 +32,7 @@ header nav ul li a {
 }
 .hero {
   background: url('images/hero.jpg') center/cover no-repeat;
-  color: black;
+  color: white;
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -41,6 +41,7 @@ header nav ul li a {
   text-align: center;
 }
 .hero h1 {
+  color: black;
   font-size: 3em;
   margin-bottom: 10px;
 }

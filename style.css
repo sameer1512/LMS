@@ -113,3 +113,43 @@ footer {
   padding: 10px;
   margin-top: 20px;
 }
+@media (max-width: 768px) {
+  header {
+    padding: 10px 15px;
+  }
+
+  header .logo {
+    font-size: 1.2em;  /* shrink logo */
+  }
+
+  header nav ul li {
+    margin-left: 10px; /* reduce spacing */
+  }
+
+  header nav ul li a {
+    font-size: 0.9em;  /* shrink menu font */
+  }
+  body {
+  line-height: 1.2;
+}
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px 11px;
+  }
+  header .logo {
+    font-size: 1em;  
+  }
+
+  header nav ul li {
+    margin-left: 5px; /* even tighter spacing */
+  }
+
+  header nav ul li a {
+    font-size: 0.8em; /* smaller text */
+  }
+  .hero{
+    height: 80vh;
+  }
+}
